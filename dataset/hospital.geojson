@@ -476,44 +476,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/5718035521",
-        "addr:housenumber": "4480",
-        "addr:street": "Oak Street",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "healthcare": "hospital",
-        "name": "British Columbia Children's Emergency",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.123599,
-          49.2455446
-        ]
-      },
-      "id": "node/5718035521"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/6946231182",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Emergency"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.124844,
-          49.2621467
-        ]
-      },
-      "id": "node/6946231182"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/8508184533",
         "addr:housenumber": "2211",
         "addr:street": "Wesbrook Mall",
@@ -533,58 +495,6 @@
         ]
       },
       "id": "node/8508184533"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/8766450032",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Emergency"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.0957019,
-          49.2582638
-        ]
-      },
-      "id": "node/8766450032"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/9115152224",
-        "amenity": "hospital",
-        "healthcare": "hospital",
-        "name": "Emergency"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.8442429,
-          49.1755809
-        ]
-      },
-      "id": "node/9115152224"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/9448651084",
-        "amenity": "hospital",
-        "emergency": "yes",
-        "healthcare": "hospital",
-        "name": "Emergency"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.8920702,
-          49.2259374
-        ]
-      },
-      "id": "node/9448651084"
     },
     {
       "type": "Feature",
