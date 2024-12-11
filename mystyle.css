@@ -1,0 +1,14 @@
+#map {
+    position: absolute;
+    top: 10%;
+    bottom:0;
+    width:100%; 
+}
+#title{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+.voronoi-layer {
+    pointer-events: none;
+}
