@@ -58,9 +58,15 @@ $.getJSON("dataset/hospital.geojson", function(data){
     
     var voronoiLayer = L.layerGroup();
     //add voronoi Layer
-    L.geoJSON(vn,{
-        interactive: false
-    }).addTo(voronoiLayer);
+    vn.feature.forEach(function(feature){
+        if (feature && feature.type === "Feature"  && feature.geometry){
+            L.geoJSON(feature, { 
+                interactive: false }).addTo(voronoiLayer);
+        } else{
+            console.warn("invalid feature", feature);
+        }
+    })
+
     voronoiLayer.addTo(map);
 });
 
